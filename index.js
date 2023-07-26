@@ -1,5 +1,5 @@
 // index.js
-const { nextISSTimesForMyLocation, printPassTimes } = require('./iss');
+const { nextISSTimesForMyLocation } = require('./iss');
 
 const printPassTimes = function(passes) {
   for (const pass of passes) {
